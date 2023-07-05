@@ -2,6 +2,15 @@
 The cosmetics store app
 
 BLOOM — мобильное приложение для iOS, созданное специально для любителей косметики! Приложение обеспечивает простой и элегантный способ исследования, покупки и управления вашими любимыми косметическими продуктами, прямо с вашего iPhone или iPad. 
+<img width="454" alt="Снимок экрана 2023-07-06 в 01 05 37" src="https://github.com/RomaAlim/BLOOM/assets/129084316/f7ca9713-d44c-47aa-84c0-06ff3ba215d9"> <img width="455" alt="Снимок экрана 2023-07-06 в 01 05 45" src="https://github.com/RomaAlim/BLOOM/assets/129084316/054e1502-7cba-44b8-b8e0-8d1a6cf35baf"> <img width="440" alt="Снимок экрана 2023-07-06 в 01 05 54" src="https://github.com/RomaAlim/BLOOM/assets/129084316/ae7c7ce8-dc5c-40b2-a0af-1a2ff7243a40"> <img width="439" alt="Снимок экрана 2023-07-06 в 01 10 44" src="https://github.com/RomaAlim/BLOOM/assets/129084316/4ee50530-8847-4e44-8524-aab9f5c914ed">
+
+
+
+
+
+
+
+
 
 1. Регистрация и авторизация:
    - Регистрация и вход в приложение реализованы с использованием Google Firebase.
