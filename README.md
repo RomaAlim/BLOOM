@@ -28,27 +28,38 @@ BLOOM — мобильное приложение для iOS, созданное
 5. Экран продавца (Admin panel):
    - Экран продавца предоставляет дополнительные функциональные возможности для управления продуктами и просмотра информации о покупателях.
    - Продавец может просматривать список товаров и выполнять действия, такие как удаление товаров из базы данных и API с помощью GET- и DELETE-запросов соответственно.
+     
      <img width="723" alt="Снимок экрана 2023-07-05 в 23 49 20" src="https://github.com/RomaAlim/BLOOM/assets/129084316/8a4ae5e2-10fe-4048-bbf6-d1fd2246cefc">
+     
       <img width="386" alt="Снимок экрана 2023-07-05 в 23 49 40" src="https://github.com/RomaAlim/BLOOM/assets/129084316/af109f2b-39b3-4e77-b232-b06ac65afe1e">
+      
      <img width="1068" alt="Снимок экрана 2023-07-05 в 23 48 51" src="https://github.com/RomaAlim/BLOOM/assets/129084316/b0281d9a-762c-40bf-a017-108d0e5df46c">
+     
 
    - Также возможно добавление новых товаров через заполнение соответствующих полей и отправку POST-запроса.
+     
      <img width="681" alt="Снимок экрана 2023-07-05 в 23 48 18" src="https://github.com/RomaAlim/BLOOM/assets/129084316/6b059f8b-c892-4847-8b1b-ae562d33acfd">
+     
    - Продавец имеет доступ к списку покупателей, где отображается информация о имени, номере телефона, адресе и названиях приобретенных товаров.
 
 6. Дизайн и инструменты:
    - Для создания пользовательского интерфейса в твоем приложении были использованы несколько Storyboard и XIB-файлов. Это позволяет удобно организовывать и визуально представлять экраны и компоненты приложения.
+     
      <img width="557" alt="Снимок экрана 2023-07-05 в 23 04 14" src="https://github.com/RomaAlim/BLOOM/assets/129084316/4d1fa304-8997-420b-a2e3-3fdaeae64cc7">
 
    - Tabbar используется для удобной навигации между разделами приложения.
    - Segue используется для перехода между экранами приложения.
+     
      <img width="598" alt="Снимок экрана 2023-07-05 в 23 51 59" src="https://github.com/RomaAlim/BLOOM/assets/129084316/dca6d406-62c9-4dcd-a6de-3f95a07d6d31">
+     
    - В различных экранах приложения были использованы различные элементы интерфейса, такие как TableView для отображения списков продуктов и заказов, а также UIAlert для вывода уведомлений пользователю.
+     
      <img width="804" alt="Снимок экрана 2023-07-05 в 23 52 25" src="https://github.com/RomaAlim/BLOOM/assets/129084316/0f6010c1-ffd1-443a-a360-b9c9f26b72d3">
 
      <img width="982" alt="Снимок экрана 2023-07-05 в 23 50 55" src="https://github.com/RomaAlim/BLOOM/assets/129084316/e70ec374-b4b9-40d2-ae4b-15d936036a6b">
 
    - Добавление товаров в корзину реализовано с использованием UserDefault, который позволяет хранить простые данные на устройстве пользователя.
+     
      <img width="945" alt="Снимок экрана 2023-07-05 в 23 50 09" src="https://github.com/RomaAlim/BLOOM/assets/129084316/1f6e68d2-20ff-4f66-ae6e-13c0afacfd11">
 
    - Для обработки сетевых запросов были подключены пакеты Alamofire и Google Framework.
@@ -58,9 +69,13 @@ BLOOM — мобильное приложение для iOS, созданное
    - Для хранения данных пользователей и продуктов ты использовал Google Firebase.
    - Firebase Authentication используется для аутентификации пользователей с помощью почты и пароля, а также для входа через Face ID.
    - Realtime Database в Firebase используется для хранения информации о пользователях (почта, имя и роль) и, возможно, других данных, связанных с приложением.
+     
    <img width="916" alt="Снимок экрана 2023-07-05 в 23 35 54" src="https://github.com/RomaAlim/BLOOM/assets/129084316/a33a550d-1ceb-46ff-a6f7-389bf23aba50">
+   
    <img width="1086" alt="Снимок экрана 2023-07-05 в 23 37 08" src="https://github.com/RomaAlim/BLOOM/assets/129084316/1b6619d6-cc96-47c2-83b3-ad62d6dc528e">
+   
    <img width="1183" alt="Снимок экрана 2023-07-05 в 23 37 41" src="https://github.com/RomaAlim/BLOOM/assets/129084316/62d63bb7-6b30-41d2-a33b-ce5353a77010">
+   
    <img width="1023" alt="Снимок экрана 2023-07-05 в 23 46 17" src="https://github.com/RomaAlim/BLOOM/assets/129084316/4ef6c78c-3541-4cfd-b9f2-408db5659c93">
 
 BLOOM is a mobile application designed specifically for iOS, catering to cosmetics enthusiasts. It provides a simple and elegant way to explore, purchase, and manage your favorite cosmetic products, right from your iPhone or iPad.
@@ -91,34 +106,49 @@ Sellers receive comprehensive details about the order, including selected produc
 5. Admin Panel (Seller's Screen):
 The Admin Panel offers additional functionalities for product management and customer insights.
 Sellers can view the list of available products and perform actions such as deleting items from the database and API using GET and DELETE requests.
+
      <img width="723" alt="Снимок экрана 2023-07-05 в 23 49 20" src="https://github.com/RomaAlim/BLOOM/assets/129084316/8a4ae5e2-10fe-4048-bbf6-d1fd2246cefc">
+     
       <img width="386" alt="Снимок экрана 2023-07-05 в 23 49 40" src="https://github.com/RomaAlim/BLOOM/assets/129084316/af109f2b-39b3-4e77-b232-b06ac65afe1e">
+      
      <img width="1068" alt="Снимок экрана 2023-07-05 в 23 48 51" src="https://github.com/RomaAlim/BLOOM/assets/129084316/b0281d9a-762c-40bf-a017-108d0e5df46c">
+     
 Adding new products is also possible by filling in the required fields and sending a POST request.
+
 <img width="681" alt="Снимок экрана 2023-07-05 в 23 48 18" src="https://github.com/RomaAlim/BLOOM/assets/129084316/6b059f8b-c892-4847-8b1b-ae562d33acfd">
+
 Sellers can access a list of customers, displaying their names, phone numbers, addresses, and purchased items.
 
-6. Design and Tools:
+7. Design and Tools:
 BLOOM utilizes multiple Storyboards and XIB files for creating a user-friendly interface.
+
       <img width="557" alt="Снимок экрана 2023-07-05 в 23 04 14" src="https://github.com/RomaAlim/BLOOM/assets/129084316/4d1fa304-8997-420b-a2e3-3fdaeae64cc7">
+      
 The Tabbar provides easy navigation between different app sections.
 Segue is used for smooth screen transitions.
        <img width="598" alt="Снимок экрана 2023-07-05 в 23 51 59" src="https://github.com/RomaAlim/BLOOM/assets/129084316/dca6d406-62c9-4dcd-a6de-3f95a07d6d31">
+       
 Various interface elements are employed, such as TableView for displaying product and order lists, and UIAlert for user notifications.
        <img width="804" alt="Снимок экрана 2023-07-05 в 23 52 25" src="https://github.com/RomaAlim/BLOOM/assets/129084316/0f6010c1-ffd1-443a-a360-b9c9f26b72d3">
      <img width="982" alt="Снимок экрана 2023-07-05 в 23 50 55" src="https://github.com/RomaAlim/BLOOM/assets/129084316/e70ec374-b4b9-40d2-ae4b-15d936036a6b">
+     
 UserDefault is utilized for managing shopping cart functionality.
        <img width="945" alt="Снимок экрана 2023-07-05 в 23 50 09" src="https://github.com/RomaAlim/BLOOM/assets/129084316/1f6e68d2-20ff-4f66-ae6e-13c0afacfd11">
+       
 Networking tasks are handled using packages like Alamofire and Google Framework.
 Alamofire simplifies HTTP request handling, while the Google Framework offers versatile integration with Google services.
 
-7. Database and Authentication:
+9. Database and Authentication:
 BLOOM leverages Google Firebase for data storage, including user and product information.
 Firebase Authentication ensures secure user authentication through email and password, as well as convenient Face ID login.
 Realtime Database in Firebase stores user data (email, name, role), and potentially other relevant information related to the app.
+
       <img width="916" alt="Снимок экрана 2023-07-05 в 23 35 54" src="https://github.com/RomaAlim/BLOOM/assets/129084316/a33a550d-1ceb-46ff-a6f7-389bf23aba50">
+      
       <img width="1086" alt="Снимок экрана 2023-07-05 в 23 37 08" src="https://github.com/RomaAlim/BLOOM/assets/129084316/1b6619d6-cc96-47c2-83b3-ad62d6dc528e">
+      
       <img width="1183" alt="Снимок экрана 2023-07-05 в 23 37 41" src="https://github.com/RomaAlim/BLOOM/assets/129084316/62d63bb7-6b30-41d2-a33b-ce5353a77010">
+      
       <img width="1023" alt="Снимок экрана 2023-07-05 в 23 46 17" src="https://github.com/RomaAlim/BLOOM/assets/129084316/4ef6c78c-3541-4cfd-b9f2-408db5659c93">
 
 
