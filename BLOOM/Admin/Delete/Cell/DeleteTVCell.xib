@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DeleteTVCell" rowHeight="107" id="YKR-Zm-j0d" customClass="DeleteTVCell" customModule="BLOOM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="YKR-Zm-j0d" id="ZZU-mH-6sg">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-13" translatesAutoresizingMaskIntoConstraints="NO" id="B9w-Yf-hzu">
+                        <rect key="frame" x="90" y="8" width="273" height="91"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="we4-b4-SAq">
+                                <rect key="frame" x="0.0" y="0.0" width="273" height="39"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TypeProduct" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JpO-Jn-DZx">
+                                <rect key="frame" x="0.0" y="26" width="273" height="39"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="111" translatesAutoresizingMaskIntoConstraints="NO" id="Dl5-cs-7ac">
+                                <rect key="frame" x="0.0" y="52" width="273" height="39"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgh-Qb-QAd" userLabel="Cost">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="rji-Hh-YpI">
+                                        <rect key="frame" x="221" y="4" width="52" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="delete.left.fill" catalog="system">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="ButtonDeleteAction:" destination="YKR-Zm-j0d" eventType="touchUpInside" id="pDM-oy-Qfe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="Srb-TD-YmV">
+                        <rect key="frame" x="5" y="13.666666666666664" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="hHw-lu-6VT"/>
+                            <constraint firstAttribute="height" constant="80" id="vN4-AG-7vd"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Srb-TD-YmV" firstAttribute="centerY" secondItem="ZZU-mH-6sg" secondAttribute="centerY" id="Z1O-vq-Bk3"/>
+                    <constraint firstItem="B9w-Yf-hzu" firstAttribute="centerY" secondItem="ZZU-mH-6sg" secondAttribute="centerY" id="btn-ZC-4nM"/>
+                    <constraint firstItem="B9w-Yf-hzu" firstAttribute="leading" secondItem="Srb-TD-YmV" secondAttribute="trailing" constant="5" id="eNd-zz-fGr"/>
+                    <constraint firstAttribute="trailing" secondItem="B9w-Yf-hzu" secondAttribute="trailing" constant="5" id="vuy-UO-R4s"/>
+                    <constraint firstItem="Srb-TD-YmV" firstAttribute="leading" secondItem="ZZU-mH-6sg" secondAttribute="leading" constant="5" id="wOM-St-Gc7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="9Zh-Cl-z53"/>
+            <connections>
+                <outlet property="ButtonCell" destination="rji-Hh-YpI" id="jfb-Db-Y9m"/>
+                <outlet property="brandCell" destination="we4-b4-SAq" id="gGd-ay-eW6"/>
+                <outlet property="costCell" destination="Qgh-Qb-QAd" id="Egf-Js-kg3"/>
+                <outlet property="imageCell" destination="Srb-TD-YmV" id="R6U-yo-QaD"/>
+                <outlet property="typeProductCell" destination="JpO-Jn-DZx" id="vE6-jt-BZw"/>
+            </connections>
+            <point key="canvasLocation" x="125.95419847328243" y="2.4647887323943665"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="delete.left.fill" catalog="system" width="128" height="102"/>
+        <image name="icon" width="1418" height="1418"/>
+    </resources>
+</document>

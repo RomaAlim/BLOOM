@@ -1,0 +1,39 @@
+https://64455764b80f57f581b7e94f.mockapi.io/api/v1/Products
+[
+ {
+  "Brand": "NOTE bb cream",
+  "TypeProduct": "КРЕМ ДЛЯ ЛИЦА",
+  "Cost": "5 278",
+  "imageName": "https://goldapple.kz/media/catalog/product/cache/df20e1840b63c7f40d0acee268900e66/8/6/8680705342029_1_tlgbtawmfmn87jkb.jpg",
+  "Description": "Косметическое чудо - ВВ крем от NOTE COSMETIQUE! Настоящий профессионал своего дела, ВВ умело сочетает в себе свойства тонального крема, корректора и полноценного ухаживающего средства. ВВ крем увлажняет, питает, разглаживает кожу, буквально стирая с лица несовершенства. ВВ крем настоящий - умный гаджет. Его чудесная формула обогащена ценными натуральными ингредиентами и обеспечивает коже безусловный комфорт. Экстракт пшеничных отрубей в составе крема отвечает за смягчение и увлажнение кожи, защищает от воздействия внешней среды, успокаивает воспаления, способствует регенерации клеток.",
+  "Composition": "AQUA, CYCLOPENTASILOXANE, BUTYLENE GLYCOL, DIMETHICONE, HDI/TRIMETHYLOL HEXYLLACTONE CROSSPOLYMER, DIMETHICONE/VINYL DIMETHICONE CROSSPOLYMER, TRIMETHYLSILOXYSILICATE, DISTEARDIMONIUM HECTORITE, SILICA, SODIUM CHLORIDE, ETHYLHEXYL METHOXYCINNAMATE, PROPYLENE GLYCOL, TRITICUM VULGARE BRAN EXTRACT, CITRUS PARADISI FRUIT EXTRACT, CITRUS AURANTIUM AMARA FRUIT EXTRACT, HELIANTHUS ANNUUS SEED OIL, LECITHIN, TOCOPHEROL, SORBITOL, SODIUM HYDROXIDE , GLYCERIN, SODIUM ASCORBATE, TOCOPHERYL ACETATE, PARFUM, PHENOXYETHANOL, ETHYLHEXYLGLYCERIN, BHT, BUTYLPHENYL METHYLPROPIONAL, CITRONELLOL, COUMARIN, GERANIOL, HEXYLCINNAMOL, D-LIMONENE",
+  "Application": "Для более легкого покрытия наносите крем подушечками пальцев, для более плотного покрытия - спонжем или плотно набитой кистью прижимающими движениями. Можно наносить как консилер на область вокруг глаз. Крем составляет идеальную пару с BB КОНСИЛЕРОМ. Идеально подходит для всех типов кожи.",
+  "AddInfo": "Для этого товара доступна быстрая доставка и самовывоз из магазина Алматы!",
+  "id": "1"
+ },
+ {
+  "Brand": "AHAVA beauty before age",
+  "TypeProduct": "КРЕМ ДЛЯ ЛИЦА",
+  "Cost": "31 191",
+  "imageName": "https://goldapple.kz/media/catalog/product/cache/df20e1840b63c7f40d0acee268900e66/6/9/697045163342_1_egxfgoshg1zgk9kp.jpg",
+  "Description": "Ультра-питательный крем для чувствительной, уставшей, зрелой и тусклой кожи. Содержит эссенцию долголетия из восстанавливающих экстрактов Halobacterium и комплекса Osmoter ™. Обогащен многофункциональными антивозрастными активными веществами и питательными растительными компонентами, такими как Масляный кресс (Spilanthes Acmella) и Астрагал (Astragalus) , которые помогают подтянуть, разгладить и заметно восстановить сияние кожи",
+  "Composition": "Aqua (Mineral Spring Water), Glycerin, C15-19 Alkane, Cetearyl Alcohol, Glycol Palmitate, Cetearyl Ethylhexanoate, Cyclopentasiloxane, Butyrospermum Parkii (Shea) Butter, Phenoxyethanol, Jojoba Esters, Glyceryl Stearate, Lauryl Lactate, Erythritol, PVP, Parfum (Fragrance), Alpha Isomethyl Ionone, Linalool, Citronellol, Cetearyl Glucoside, Sodium Stearoyl Glutamate, Dimethicone Crosspolymer, Myristyl Lactate, Disodium Cetearyl Sulfosuccinate, Sodium Mannose Phosphate, Synthetic Fluorphlogopite, Chlorphenesin, Mannose, Cetyl Lactate, Caprylyl Glycol, Didecyldimonium Chloride, Titanium Dioxide (CI 77891), Polyglycerin-3, Glucose, Sodium Benzoate, Potassium Sorbate, Ubiquinone, Homarine HCl, Iron Oxides (CI 77491), Tin Oxide, Rosmarinus Officinalis (Rosemary) Leaf Extract, Spilanthes Acmella Flower/Leaf/Stem Extract, Astragalus Membranaceus Root Extract, Helianthus Annuus (Sunflower) Seed Wax, Carthamus Tinctorius (Safflower) Seed Oil, Lactococcus Ferment Extract, Lactobacillus/Brassica Nigra Seed Ferment Extract, Halobacterium Ferment Lysate Extract, Maris Aqua (Dead Sea Water/Osmoter).",
+  "Application": "Наносить на чистую кожу лица и шеи утром и вечером после Подтягивающей сыворотки Halobacterium Restoring.",
+  "AddInfo": "Ahava — мировой лидер в производстве продукции на основе минералов Мертвого моря. Для создания продукции косметологи используют передовые разработки. Исследовательская лаборатория Ahava создает эксклюзивные компоненты, которые входят исключительно в состав косметических средств бренда.",
+  "id": "2"
+ },
+ {
+  "Brand": "INFLUENCE BEAUTY volume shot",
+  "TypeProduct": "Блеск для увеличения обьема губ",
+  "Cost": "3 500",
+  "imageName": "https://goldapple.kz/media/catalog/product/cache/df20e1840b63c7f40d0acee268900e66/4/6/4602006312840_1_2adei1hds85xabxc.jpg",
+  "Description": "Глянцевый блеск для губ с увеличивающим эффектом VOLUME SHOT от INFLUENCE BEAUTY с легкой нелипкой текстурой создан на основе технологии PLUMPINIZER. Ментол в составе стимулирует микроциркуляцию крови и визуально увеличивают губы. Витамин Е и масло алоэ ухаживают за кожей, одновременно увлажняя и защищая ее. Для придания губам большего объема наносите блеск VOLUME SHOT на маску для губ VOLUME DOSE от INFLUENCE BEAUTY. В ассортименте 6 тонов. Продукция не тестируется на животных.",
+  "Composition": "POLYBUTENE, OCTYLDODECANOL, SILICA DIMETHYL SILYLATE, OCTYLDODECYL STEAROYL STEARATE, MENTHOL.",
+  "Application": "Наносите тонким слоем аппликатором или кистью, равномерно распределяя средство по губам. Ожидайте легкое пощипывание. Блеск можно использовать как самостоятельное средство или как завершающий штрих поверх губной помады.",
+  "AddInfo": "Он выводит на новый уровень привычные продукты для макияжа, используя инновации из различных отраслей науки. Продукты с современными текстурами и футуристичным дизайном разработаны с учетом принципов оптики, пластической хирургии и даже математики.",
+  "id": "3"
+ }
+]
+
+
+    //var ProductList: [ProductFull] = [ProductFull(id: 1, Brand: "INFLUENCE BEAUTY volume shot", TypeProduct: "Блеск для увеличения обьема губ", Cost: "3500", imageName: "INFLUENCEBLOOM", Description: "Глянцевый блеск для губ с увеличивающим эффектом VOLUME SHOT от INFLUENCE BEAUTY с легкой нелипкой текстурой создан на основе технологии PLUMPINIZER. Ментол в составе стимулирует микроциркуляцию крови и визуально увеличивают губы. Витамин Е и масло алоэ ухаживают за кожей, одновременно увлажняя и защищая ее. Для придания губам большего объема наносите блеск VOLUME SHOT на маску для губ VOLUME DOSE от INFLUENCE BEAUTY. В ассортименте 6 тонов. Продукция не тестируется на животных.", Сomposition: "POLYBUTENE, OCTYLDODECANOL, SILICA DIMETHYL SILYLATE, OCTYLDODECYL STEAROYL STEARATE, MENTHOL.", Application: "Наносите тонким слоем аппликатором или кистью, равномерно распределяя средство по губам. Ожидайте легкое пощипывание. Блеск можно использовать как самостоятельное средство или как завершающий штрих поверх губной помады.", AddInfo: "Он выводит на новый уровень привычные продукты для макияжа, используя инновации из различных отраслей науки. Продукты с современными текстурами и футуристичным дизайном разработаны с учетом принципов оптики, пластической хирургии и даже математики.")]

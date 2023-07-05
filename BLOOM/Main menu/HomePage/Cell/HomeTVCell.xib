@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeTVCell" rowHeight="107" id="7Lx-wH-ZdX" customClass="HomeTVCell" customModule="BLOOM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Lx-wH-ZdX" id="Lck-TU-6Vh">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="wzM-s9-xjN">
+                        <rect key="frame" x="5" y="5" width="100" height="97"/>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-13" translatesAutoresizingMaskIntoConstraints="NO" id="E3F-Kn-B3z">
+                        <rect key="frame" x="115" y="5" width="273" height="97"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXY-Wi-KlG">
+                                <rect key="frame" x="0.0" y="0.0" width="273" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TypeProduct" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVV-D9-Ntv">
+                                <rect key="frame" x="0.0" y="28" width="273" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28U-6L-Qh2">
+                                <rect key="frame" x="0.0" y="56" width="273" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wzM-s9-xjN" firstAttribute="leading" secondItem="Lck-TU-6Vh" secondAttribute="leading" constant="5" id="5C8-6s-9e9"/>
+                    <constraint firstItem="wzM-s9-xjN" firstAttribute="top" secondItem="Lck-TU-6Vh" secondAttribute="top" constant="5" id="8um-oz-UDe"/>
+                    <constraint firstAttribute="trailing" secondItem="E3F-Kn-B3z" secondAttribute="trailing" constant="5" id="Fbt-9K-4Lh"/>
+                    <constraint firstAttribute="bottom" secondItem="wzM-s9-xjN" secondAttribute="bottom" constant="5" id="JNP-x8-EPI"/>
+                    <constraint firstAttribute="bottom" secondItem="E3F-Kn-B3z" secondAttribute="bottom" constant="5" id="NJK-bO-ObE"/>
+                    <constraint firstItem="E3F-Kn-B3z" firstAttribute="top" secondItem="Lck-TU-6Vh" secondAttribute="top" constant="5" id="T1C-Kn-7Uc"/>
+                    <constraint firstItem="E3F-Kn-B3z" firstAttribute="leading" secondItem="wzM-s9-xjN" secondAttribute="trailing" constant="10" id="gQ7-4q-hzq"/>
+                    <constraint firstAttribute="trailing" secondItem="wzM-s9-xjN" secondAttribute="trailing" constant="288" id="zMM-PQ-1ka"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="tsL-5j-QkK"/>
+            <connections>
+                <outlet property="ProductBrand" destination="uXY-Wi-KlG" id="PFg-GS-xgW"/>
+                <outlet property="ProductCost" destination="28U-6L-Qh2" id="Qw3-Gr-EK1"/>
+                <outlet property="ProductImage" destination="wzM-s9-xjN" id="hda-wc-qGL"/>
+                <outlet property="ProductType" destination="FVV-D9-Ntv" id="kfC-po-gEq"/>
+            </connections>
+            <point key="canvasLocation" x="126" y="3"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon" width="1418" height="1418"/>
+    </resources>
+</document>
